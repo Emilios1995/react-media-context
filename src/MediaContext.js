@@ -1,4 +1,5 @@
 
+import PropTypes from 'prop-types';
 import React from 'react'
 import { debounce } from 'lodash'
 
@@ -47,11 +48,11 @@ class MediaContext extends React.Component {
 }
 
 MediaContext.childContextTypes = {
-  media: React.PropTypes.array
+  media: PropTypes.array
 }
 
 MediaContext.propTypes = {
-  queries: React.PropTypes.object
+  queries: PropTypes.object
 }
 
 MediaContext.defaultProps = {
