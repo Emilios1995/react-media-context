@@ -14,7 +14,9 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _lodash = require('lodash');
+var _lodash = require('lodash.debounce');
+
+var _lodash2 = _interopRequireDefault(_lodash);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -36,7 +38,7 @@ var MediaContext = function (_React$Component) {
       media: []
     };
     _this.match = _this.match.bind(_this);
-    _this.handleResize = (0, _lodash.debounce)(_this.handleResize.bind(_this), 100);
+    _this.handleResize = (0, _lodash2.default)(_this.handleResize.bind(_this), 100);
     return _this;
   }
 
