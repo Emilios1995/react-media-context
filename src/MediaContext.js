@@ -1,7 +1,7 @@
 
 import PropTypes from 'prop-types';
 import React from 'react'
-import { debounce } from 'lodash'
+import  debounce  from 'lodash.debounce'
 
 class MediaContext extends React.Component {
   constructor () {
