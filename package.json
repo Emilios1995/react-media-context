@@ -43,7 +43,6 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
-    "lodash.debounce": "^4.0.8",
-    "react-media-context": "https://github.com/Emilios1995/react-media-context/"
+    "lodash.debounce": "^4.0.8"
   }
 }
